@@ -6,19 +6,19 @@ import java.util.List;
 
 public interface SeguroService {
 
-        void salvarSeguro(Seguro seguro); // Salvar um novo seguro
+        void salvarSeguro(Seguro seguro); 
 
-        Seguro buscarSeguroPorId(int id); // Buscar seguro pelo ID
+        Seguro buscarSeguroPorId(int id); 
 
-        List<Seguro> listarSeguros(); // Listar todos os seguros
+        List<Seguro> listarSeguros(); 
+        
+        void atualizarSeguro(Seguro seguro); 
 
-        void atualizarSeguro(Seguro seguro); // Atualizar dados de um seguro
+        void deletarSeguro(int id); 
 
-        void deletarSeguro(int id); // Deletar seguro pelo ID
+        double calcularValorSeguro(Seguro seguro); 
 
-        double calcularValorSeguro(Seguro seguro); // Calcular o valor total do seguro (aplicando desconto)
-
-        boolean verificarSeguroAtivo(Seguro seguro); // Verificar se o seguro está ativo
+        boolean verificarSeguroAtivo(Seguro seguro); 
 
 
 }
