@@ -9,14 +9,14 @@ import java.util.Map;
 
 public class SeguroDaoImplements implements SeguroDAO {
 
-        private Map<Integer, Seguro> seguros = new HashMap<>(); // Simula o banco de dados com HashMap
+        private Map<Integer, Seguro> seguros = new HashMap<>(); 
 
-        private static SeguroDaoImplements instanciaSingleton; // Singleton
+        private static SeguroDaoImplements instanciaSingleton; 
 
-        // Construtor privado para evitar múltiplas instâncias
+        
         private SeguroDaoImplements() {}
 
-        // Método para retornar a instância Singleton
+       
         public static SeguroDaoImplements getInstance() {
             if (instanciaSingleton == null) {
                 instanciaSingleton = new SeguroDaoImplements();
