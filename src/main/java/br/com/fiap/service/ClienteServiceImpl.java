@@ -7,7 +7,7 @@ import br.com.fiap.model.Cliente;
 class ClienteServiceImpl implements ClienteService {
 
 
-  private ClienteDAO clienteDAO = ClienteDaoImplements.getInstance();  // Usando Singleton
+  private ClienteDAO clienteDAO = ClienteDaoImplements.getInstance();  
 
   private static ClienteServiceImpl instanciaSingleton;
 
