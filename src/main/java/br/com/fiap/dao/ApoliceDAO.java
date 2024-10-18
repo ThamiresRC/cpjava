@@ -4,11 +4,11 @@ import java.util.List;
 
 public interface ApoliceDAO {
 
-//        void salvar(Apolice apolice);
-//        Apolice buscarPorId(int id);
-//        List<Apolice> listarTodas();
-//        void atualizar(Apolice apolice);
-//        void remover(int id);
+       void salvar(Apolice apolice);
+       Apolice buscarPorId(int id);
+       List<Apolice> listarTodas();
+       void atualizar(Apolice apolice);
+       void remover(int id);
 }
 
 
