@@ -8,10 +8,9 @@ import java.util.List;
 
 public class SeguroServiceImpl implements SeguroService {
 
-        private SeguroDAO seguroDAO = SeguroDaoImplements.getInstance(); // Usando o DAO Singleton
+        private SeguroDAO seguroDAO = SeguroDaoImplements.getInstance(); 
 
-        private static SeguroServiceImpl instanciaSingleton; // Instância Singleton para a camada de serviço
-
+        private static SeguroServiceImpl instanciaSingleton; 
         private SeguroServiceImpl() {}
 
         public static SeguroServiceImpl getInstance() {
