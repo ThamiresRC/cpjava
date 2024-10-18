@@ -11,7 +11,7 @@ public class ClienteDaoImplements implements ClienteDAO{
 
     private ClienteDaoImplements() {}
 
-    public static ClienteDaoImplements getInstance() {  //metodo para obter a instencia
+    public static ClienteDaoImplements getInstance() {  
         if (instanciaSingleton == null) {
             instanciaSingleton = new ClienteDaoImplements();
         }
