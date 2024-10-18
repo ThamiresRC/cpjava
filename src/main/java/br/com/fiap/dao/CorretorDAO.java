@@ -5,8 +5,8 @@ import java.util.List;
 public interface CorretorDAO {
 
        void salvar(Corretor corretor);
-//        Corretor buscarPorId(int id);
-//        List<Corretor> listarTodos();
+       Corretor buscarPorId(int id);
+       List<Corretor> listarTodos();
 //        void atualizar(Corretor corretor);
 //        void remover(int id);
 }
